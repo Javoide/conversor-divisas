@@ -93,7 +93,7 @@ public class Principal {
             case "4" -> "ARS";
             case "5" -> "BRL";
             case "6" -> "CAD";
-            case "7" -> "JPY";
+            case "7" -> "JPY.";
             default -> null;
         };
     }

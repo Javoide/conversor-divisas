@@ -23,7 +23,7 @@ public class ConsultaDivisa {
             }
             return new Gson().fromJson(response.body(), Divisas.class);
         } catch (Exception e) {
-            throw new RuntimeException("No se pudo procesar la solicitud. Verifica la divisa y tu conexión.");
+            throw new RuntimeException(" No se pudo procesar la solicitud. Verifica la divisa y tu conexión.");
         }
     }
 }
